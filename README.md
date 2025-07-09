@@ -1,6 +1,6 @@
-Simple CLI wrapper against refpack-rs library to compress files using stdin/stdout pipe
+Simple CLI wrapper for [refpack-rs](https://github.com/actioninja/refpack-rs) library to compress files using stdin/stdout pipe
 
-It was made to use with projects in another languages, but you can use in any way you want
+It was made to use with projects in another languages (eg. Python, etc.), but you can use in any way you want
 
 
 You can build it by installing Rust toolchain and running second command to build
