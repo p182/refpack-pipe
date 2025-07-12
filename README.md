@@ -1,5 +1,27 @@
 Simple CLI wrapper for [refpack-rs](https://github.com/actioninja/refpack-rs) library to compress files using stdin/stdout pipe
 
+## License Notices for Dependencies
+
+- **[refpack-rs]**  
+  License: Mozilla Public License 2.0 (MPL 2.0)  
+  Authors: https://github.com/actioninja  
+  Link: https://crates.io/crates/refpack
+
+---
+
+### Notes
+
+- This project acts as a wrapper around the above MPL-licensed library without modifying its source code.  
+- The MPL-licensed library is distributed according to the terms of MPL 2.0.  
+- Your own code is licensed separately under the chosen license.  
+- All copyright and license notices for dependencies are preserved as required.
+
+
+
+
+
+
+
 It was made to use with projects in another languages (eg. Python, etc.), but you can use in any way you want
 
 
