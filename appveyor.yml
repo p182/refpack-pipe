@@ -4,10 +4,12 @@ environment:
   RUST_BACKTRACE: 1
 
 install:
-  - choco install -y rust-msvc
+  - powershell -Command "Invoke-WebRequest https://win.rustup.rs/x86_64 -OutFile rustup-init.exe"
+  - rustup-init.exe -y --default-host x86_64-pc-windows-msvc --default-toolchain stable --no-modify-path
+  - set PATH=%USERPROFILE%\.cargo\bin;%PATH%
+  - cargo --version
 
 build_script:
-  - cargo --version
   - cargo build --release
 
 artifacts:
