@@ -39,8 +39,8 @@ https://www.rust-lang.org/tools/install
 
 ``cargo build --release``
 
-**If you're using Windows you can download prebuilt .exe (default compression mode, not optimal) via GitHub Actions:**
+**If you're using Windows you can download prebuilt .exe from releases:**
 
-https://github.com/p182/refpack-pipe/actions/runs/16153722687 (artifact download at the bottom of page)
+https://github.com/p182/refpack-pipe/releases
 
-https://github.com/p182/refpack-pipe/actions/runs/16153722687/artifacts/3490015212 (direct link to built zipped .exe, don't forget to unpack it, of course)
+**Alternatively, you can build via CI, like GitHub Actions, AppVeyor, etc., but check Terms and Conditions first**
