@@ -12,7 +12,7 @@ fn main() {
         input.len(),
         &mut input_cursor,
         &mut output_cursor,
-        CompressionOptions::default()
+        CompressionOptions::Optimal
     ).expect("Compression failed");
 
     let compressed = output_cursor.into_inner();
