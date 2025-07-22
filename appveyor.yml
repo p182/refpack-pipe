@@ -3,7 +3,11 @@ image: Visual Studio 2022
 environment:
   RUST_BACKTRACE: 1
 
+install:
+  - choco install -y rust-msvc
+
 build_script:
+  - cargo --version
   - cargo build --release
 
 artifacts:
