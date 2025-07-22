@@ -1,0 +1,10 @@
+task:
+  os: windows
+  install_script:
+    - choco install rustup -y
+    - rustup update
+    - rustup target add x86_64-pc-windows-msvc
+  script:
+    - cargo build --release --target x86_64-pc-windows-msvc
+  artifacts:
+    - target/x86_64-pc-windows-msvc/release/*.exe
