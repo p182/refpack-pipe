@@ -27,21 +27,19 @@ It was made to use with projects in another languages (eg. Python, etc.), but yo
 
 You can build it by installing Rust toolchain and running second command to build
 
-**Install on Debian/Ubuntu:**
+**Rust Install on desktop OS:**
 
-``sudo apt install rust``
+https://www.rust-lang.org/tools/install
 
-**Install on Termux (Android):**
+**Rust Install on Termux (Android):**
 
 ``pkg install rust``
-
-**For Windows and macOS or other OS Rust installation use official guide for your OS**
 
 **Build in any OS:**
 
 ``cargo build --release``
 
-**If you're using Windows you can download prebuilt .exe via GitHub Actions:**
+**If you're using Windows you can download prebuilt .exe (default compression mode, not optimal) via GitHub Actions:**
 
 https://github.com/p182/refpack-pipe/actions/runs/16153722687 (artifact download at the bottom of page)
 
